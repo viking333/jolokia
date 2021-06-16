@@ -116,19 +116,19 @@
           <postProcess>
             <copy todir="${project.basedir}/target/site/reference">
               <fileset dir="${project.basedir}/target/docbkx">
-                <include name="**/*.html" />
-                <include name="**/*.pdf" />
+                <include name="**/*.html"/>
+                <include name="**/*.pdf"/>
               </fileset>
             </copy>
             <copy todir="${project.basedir}/target/site/reference/html">
               <fileset dir="${project.basedir}/src/docbkx">
-                <include name="**/*.css" />
-                <include name="**/*.png" />
-                <include name="**/*.gif" />
-                <include name="**/*.jpg" />
+                <include name="**/*.css"/>
+                <include name="**/*.png"/>
+                <include name="**/*.gif"/>
+                <include name="**/*.jpg"/>
               </fileset>
             </copy>
-            <move file="${project.basedir}/target/site/reference/pdf/index.pdf" tofile="${project.basedir}/target/site/reference/pdf/jolokia-reference.pdf" failonerror="false" />
+            <move file="${project.basedir}/target/site/reference/pdf/index.pdf" tofile="${project.basedir}/target/site/reference/pdf/jolokia-reference.pdf" failonerror="false"/>
           </postProcess>
         </configuration>
       </plugin>
@@ -573,7 +573,7 @@
       <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
-        <version>6.8.8</version>
+        <version>7.3.0</version>
         <scope>test</scope>
       </dependency>
 
