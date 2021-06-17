@@ -26,7 +26,7 @@
   <description>osgi restrictor service sample</description>
 
   <properties>
-    <jolokia.version>0.90-SNAPSHOT</jolokia.version>
+    <jolokia.version>1.0.0</jolokia.version>
   </properties>
 
   <dependencies>
